@@ -10,8 +10,8 @@
 
 var taskInput=document.getElementById("new-task");//Add a new task.
 var addButton=document.getElementsByTagName("button")[0];//first button
-var incompleteTaskHolder=document.getElementById("todo-section");//ul of #todo-section
-var completedTasksHolder=document.getElementById("completed-section");//completed-section
+var incompleteTaskHolder=document.getElementById("todo");//ul of #todo-section
+var completedTasksHolder=document.getElementById("completed");//completed-section
 
 
 //New task list item
